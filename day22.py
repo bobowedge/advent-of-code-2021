@@ -171,7 +171,6 @@ def solution2(data):
                     partition = combine(c1, c2)
                     new_overlaps.extend(partition)
         cubes = new_cubes
-        print(index, len(cubes))
         index += 1
     
     total = 0
